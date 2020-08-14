@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='ja'>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <div class="card hint">
+            <div class="card-body">
+              <h1>ひんと</h1>
+              <p>
+              あなたは<textarea rows="1" onfocus="this.select();">にんげん</textarea>
+              </p>
+              <p>
+              あいことばは<textarea rows="1" onfocus="this.select();">ほいほい</textarea>
+              </p>
+              <a href="../" class="btn w-100 ">もどる</a>
+              
+            </div>
+          </div>         
+        </div>
+      </div>
+    </div>
+    
+    <script>
+      //ページ遷移時フェードイン
+      $('body').hide();
+      $(window).on('load', function () {
+        $('body').fadeIn(500); // fadeInにかける時間
+      });
+    </script>
+  </body>
+</html>

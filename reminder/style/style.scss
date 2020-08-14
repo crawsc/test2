@@ -1,0 +1,94 @@
+
+
+$bg-footer: #444;
+
+%section-padding {
+  padding: 100px 20%;
+
+  @media (max-width: 1280px) {
+    padding: 80px 10%;
+  }
+
+  @media (max-width: 768px) {
+    padding: 80px 5%;
+  }
+}
+
+html,
+body {
+  font-family: sans-serif;
+  background: #f2f2f2 !important;
+  cursor: url(../../images/gokiburi.png), auto;
+}
+
+section {
+  overflow: hidden;
+  transition: .8s;
+  min-height: 100vh;
+}
+
+.section {
+  &__title {
+    font-size: 2.5rem;
+    color: #B61419;
+    font-family: fantasy;
+    width: 300px;
+
+    span {
+      text-align: right;
+      display: block;
+      font-weight: 900;
+      color: #F6C12C;
+    }
+  }
+}
+
+.hint {
+  margin: 100px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  min-width: 200px;
+
+  h1 {
+    text-align: center;
+    margin: 10px 0 30px;
+    font-size: 1.8rem;
+  }
+  
+  p {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 2em auto;
+    
+    textarea {
+      width: 100px;
+    }
+  }
+  
+  a {
+    margin-top: 1em;
+    background: #F6C12C;
+    color: #444;
+    transition: .5s;
+    &:hover {
+      background: #444;
+      color: white;
+      letter-spacing: 5px;
+    }
+  }
+  
+
+  
+}
+
+footer {
+  padding: 15px 0;
+  background: $bg-footer;
+  text-align: center;
+  color: #fff;
+
+  small {
+    font-size: 14px;
+    line-height: 1;
+  }
+}

@@ -1,0 +1,69 @@
+/* line 17, ../../xampp/htdocs/test/00000000aaakkkk/reminder/style/style.scss */
+html,
+body {
+  font-family: sans-serif;
+  background: #f2f2f2 !important;
+  cursor: url(../../images/gokiburi.png), auto; }
+
+/* line 24, ../../xampp/htdocs/test/00000000aaakkkk/reminder/style/style.scss */
+section {
+  overflow: hidden;
+  transition: .8s;
+  min-height: 100vh; }
+
+/* line 31, ../../xampp/htdocs/test/00000000aaakkkk/reminder/style/style.scss */
+.section__title {
+  font-size: 2.5rem;
+  color: #B61419;
+  font-family: fantasy;
+  width: 300px; }
+  /* line 37, ../../xampp/htdocs/test/00000000aaakkkk/reminder/style/style.scss */
+  .section__title span {
+    text-align: right;
+    display: block;
+    font-weight: 900;
+    color: #F6C12C; }
+
+/* line 46, ../../xampp/htdocs/test/00000000aaakkkk/reminder/style/style.scss */
+.hint {
+  margin: 100px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 200px; }
+  /* line 51, ../../xampp/htdocs/test/00000000aaakkkk/reminder/style/style.scss */
+  .hint h1 {
+    text-align: center;
+    margin: 10px 0 30px;
+    font-size: 1.8rem; }
+  /* line 57, ../../xampp/htdocs/test/00000000aaakkkk/reminder/style/style.scss */
+  .hint p {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 2em auto; }
+    /* line 63, ../../xampp/htdocs/test/00000000aaakkkk/reminder/style/style.scss */
+    .hint p textarea {
+      width: 100px; }
+  /* line 68, ../../xampp/htdocs/test/00000000aaakkkk/reminder/style/style.scss */
+  .hint a {
+    margin-top: 1em;
+    background: #F6C12C;
+    color: #444;
+    transition: .5s; }
+    /* line 73, ../../xampp/htdocs/test/00000000aaakkkk/reminder/style/style.scss */
+    .hint a:hover {
+      background: #444;
+      color: white;
+      letter-spacing: 5px; }
+
+/* line 84, ../../xampp/htdocs/test/00000000aaakkkk/reminder/style/style.scss */
+footer {
+  padding: 15px 0;
+  background: #444;
+  text-align: center;
+  color: #fff; }
+  /* line 90, ../../xampp/htdocs/test/00000000aaakkkk/reminder/style/style.scss */
+  footer small {
+    font-size: 14px;
+    line-height: 1; }
+
+/*# sourceMappingURL=style.css.map */
